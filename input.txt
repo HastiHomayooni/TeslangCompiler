@@ -1,0 +1,29 @@
+fn find(A as vector, n as int) <int>
+{
+    k :: int;
+    j :: int;
+    for (i = 0 to length(A))
+    begin
+        if [[ n == k ]]
+        begin
+            return j;
+        end
+        j = x + 1;
+    end
+    
+    return -1;
+}
+
+fn main() <null>
+{
+    A :: int;
+    a :: int;
+    A = list(2);
+    A[0] = 1;
+    A[1] = 2;
+    A[2] = 3;
+    s :: str;
+    s = find(A, a);
+    print(s);
+    return A;
+}
